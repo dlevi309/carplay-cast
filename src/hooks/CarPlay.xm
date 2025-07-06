@@ -4,7 +4,6 @@
 /*
 Injected into the CarPlay process
 */
-%group CARPLAY
 
 struct SBIconImageInfo {
     struct CGSize size;
@@ -300,8 +299,6 @@ will launch their normal Carplay mode UI
 
     return iconView;
 }
-
-%end
 
 %end
 
